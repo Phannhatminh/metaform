@@ -11,7 +11,7 @@ of them on every build. Untagged blocks are fragments.
 
 ```
 cmake -B build -S . && cmake --build build
-./build/vproof examples/boss.v
+./build/vlg examples/boss.v
 ctest --test-dir build
 ```
 

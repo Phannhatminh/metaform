@@ -12,7 +12,7 @@ int main(int argc, char** argv) {
     else path = argv[i];
   }
   if (!path) {
-    std::cerr << "usage: vproof [--keep-going] <file.v>\n";
+    std::cerr << "usage: vlg [--keep-going] <file.v>\n";
     return 2;
   }
   std::ifstream in(path);
