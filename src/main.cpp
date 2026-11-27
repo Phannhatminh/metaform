@@ -6,7 +6,7 @@
 
 int main(int argc, char** argv) {
   if (argc < 2) {
-    std::cerr << "usage: vproof <file.v>\n";
+    std::cerr << "usage: vlg <file.v>\n";
     return 2;
   }
   std::ifstream in(argv[1]);
