@@ -1,4 +1,4 @@
-# Kiến trúc vproof
+# Kiến trúc vlg
 
 Tài liệu ngôn ngữ — viết được những câu nào — nằm ở [`docs/language.md`](docs/language.md)
 (tiếng Anh: [`docs/language.en.md`](docs/language.en.md)). File này là thiết kế và lý do.
@@ -7,7 +7,7 @@ Ghi 2026-09-20.
 
 ## Mở đầu
 
-V là một ngôn ngữ lập trình; vproof là hệ thống chạy nó. Có mã nguồn, có parser,
+V là một ngôn ngữ lập trình; vlg là hệ thống chạy nó. Có mã nguồn, có parser,
 có runtime thực thi. Viết một bài chứng minh trong V là viết một chương trình;
 chạy nó là thực thi chương trình đó.
 

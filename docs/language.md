@@ -11,7 +11,7 @@ chạy hết chúng mỗi lần build. Khối không đánh dấu chỉ là mả
 
 ```
 cmake -B build -S . && cmake --build build
-./build/vproof examples/boss.v
+./build/vlg examples/boss.v
 ctest --test-dir build
 ```
 

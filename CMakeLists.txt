@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.16)
-project(vproof CXX)
+project(vlg CXX)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
@@ -44,8 +44,8 @@ add_executable(test_reflect tests/test_reflect.cpp)
 target_link_libraries(test_reflect PRIVATE vruntime)
 add_test(NAME reflect COMMAND test_reflect)
 
-add_executable(vproof src/main.cpp)
-target_link_libraries(vproof PRIVATE vruntime)
+add_executable(vlg src/main.cpp)
+target_link_libraries(vlg PRIVATE vruntime)
 
 add_executable(test_examples tests/test_examples.cpp)
 target_link_libraries(test_examples PRIVATE vruntime)
